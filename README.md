@@ -1,1 +1,29 @@
 # techdojo-monitoring-sample
+## 概要
+### イベント
+本repositoryは、以下イベントの際に使用するデモ環境起動用ファイルになります。
+https://ibm-developer.connpass.com/event/278896/
+
+### デモ内容
+Prometheus（Grafana）でPostgreSQLを監視する
+
+### ファイル構成
+* docker-compose.yml：デモするコンテナ環境
+* postgres.env：postgres-expoterのデータベース接続設定ファイル）
+* prometheus.yml：prometheus本体の設定ファイル
+
+## 動作確認環境
+* Windows11
+* Docker for Business
+
+## 起動方法
+任意のフォルダにすべてダウンロードし以下コマンドを実行
+```
+$ docker-compose up -d
+```
+
+## 動作確認
+以下URLにアクセスしてadmin/adminでログイン
+```
+http://locaohost:3003
+```
