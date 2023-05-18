@@ -17,7 +17,17 @@ Prometheus（Grafana）でPostgreSQLを監視する
 * Docker for Business
 
 ## 起動方法
-任意のフォルダにすべてダウンロードし以下コマンドを実行
+➀任意のフォルダにすべてダウンロード
+
+➁同じフォルダ内に以下4つのフォルダを作成する
+```
+mkdir data
+mkdir proc
+mkdir rootfs
+mkdir sys
+```
+
+➂以下コマンドを実行
 ```
 $ docker-compose up -d
 ```
