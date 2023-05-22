@@ -21,10 +21,10 @@ Prometheus（Grafana）でPostgreSQLを監視する
 
 ➁同じフォルダ内に以下4つのフォルダを作成する
 ```
-mkdir data
-mkdir proc
-mkdir rootfs
-mkdir sys
+$ mkdir data
+$ mkdir proc
+$ mkdir rootfs
+$ mkdir sys
 ```
 
 ➂以下コマンドを実行
