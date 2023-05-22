@@ -10,7 +10,9 @@ Prometheus（Grafana）でPostgreSQLを監視する
 ### ファイル構成
 * docker-compose.yml：デモするコンテナ環境
 * postgres.env：postgres-expoterのデータベース接続設定ファイル）
-* prometheus.yml：prometheus本体の設定ファイル
+* prometheus/prometheus.yml：prometheus本体の設定ファイル
+* prometheus/rules.yml：アラート条件設定ファイル
+* alertmanager/config.yml：アラート通知先設定ファイル
 
 ## 動作確認環境
 * Windows11
