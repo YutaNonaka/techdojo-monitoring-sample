@@ -5,7 +5,11 @@
 https://ibm-developer.connpass.com/event/278896/
 
 ### デモ内容
-Prometheus（Grafana）でPostgreSQLを監視する
+* Prometheus（Grafana）でPostgreSQLを監視する
+* PostgreSQLコンテナを停止して、メールアラートがくることを確認
+
+### システム構成図
+![システム構成図](https://github.com/NoriMuraZ/techdojo-monitoring-sample/assets/99166088/3d13d160-0c9a-4170-87c8-c01c75ad1025)
 
 ### ファイル構成
 * docker-compose.yml：デモするコンテナ環境
