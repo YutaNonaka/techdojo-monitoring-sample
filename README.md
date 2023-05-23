@@ -9,7 +9,7 @@ https://ibm-developer.connpass.com/event/278896/
 * PostgreSQLコンテナを停止して、メールアラートがくることを確認
 
 ### システム構成図
-![システム構成図](https://github.com/NoriMuraZ/techdojo-monitoring-sample/assets/99166088/3d13d160-0c9a-4170-87c8-c01c75ad1025)
+![システム構成図](https://github.com/NoriMuraZ/techdojo-monitoring-sample/assets/99166088/058974e6-9f64-48c2-a576-0e32e4bdf0fc)
 
 ### ファイル構成
 * docker-compose.yml：デモするコンテナ環境
@@ -17,6 +17,7 @@ https://ibm-developer.connpass.com/event/278896/
 * prometheus/prometheus.yml：prometheus本体の設定ファイル
 * prometheus/rules.yml：アラート条件設定ファイル
 * alertmanager/config.yml：アラート通知先設定ファイル
+* Postgresql_Instance_Health.json：Grafana用Postgresqlダッシュボードファイル
 
 ## 動作確認環境
 * Windows11
