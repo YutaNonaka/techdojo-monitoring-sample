@@ -1,7 +1,7 @@
 # techdojo-monitoring-sample
 ## 概要
 ### イベント
-本repositoryは、以下イベントの際に使用するデモ環境起動用ファイルになります。
+本repositoryは、以下イベントの際に使用するデモ環境起動用ファイルになります。<br>
 https://ibm-developer.connpass.com/event/278896/
 
 ### デモ内容
