@@ -11,6 +11,22 @@ https://ibm-developer.connpass.com/event/278896/
 ### システム構成図
 ![システム構成図](https://github.com/NoriMuraZ/techdojo-monitoring-sample/assets/99166088/058974e6-9f64-48c2-a576-0e32e4bdf0fc)
 
+### フォルダ構成
+以下のような構成になります。
+```
+|-data
+|-proc
+|-rootfs
+|-sys
+|-prometheus---prometheus.yml
+             |-rules.yml
+|-alertmanager---config.yml
+|-docker-compose.yml
+|-Postgresql_Instance_Health.json
+|-postgres.env
+
+```
+
 ### ファイル構成
 * docker-compose.yml：デモするコンテナ環境
 * postgres.env：postgres-expoterのデータベース接続設定ファイル）
